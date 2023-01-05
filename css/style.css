@@ -1,0 +1,219 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Poppins&family=Tangerine:wght@700&display=swap');
+
+/* root */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+:root {
+  --bgcolor: #97DECE;
+  --bg-2: #66BFBF;
+  --heading-color: #11999E;
+  --p-color: #40514E;
+  --main-heading: #fff;
+  --border: #EAF6F6;
+  --hover:  #EAF6F6;
+}
+body {
+  margin: 0 0;
+}
+
+/* Top content */
+.top-container {
+  margin: 0 0;
+  padding-top: 5rem;
+  text-align: center;
+  background-color: var(--bgcolor);
+  position: relative;
+}
+
+.top-container h1 {
+  color: var(--main-heading);
+  font-family: 'Tangerine', cursive;
+  font-weight: 700;
+  font-size: 10rem;
+  margin: 5rem 0 0;
+}
+
+.top-container h4 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4rem;
+  color: var(--p-color);
+  font-weight: 700;
+  margin: 3rem 0 0;
+  line-height: 1;
+}
+
+.top-img {
+  position: relative;
+  left: 300px;
+}
+
+.bottom-img {
+  position: absolute;
+  left: 200px;
+  padding-top: 20px;
+}
+
+hr {
+  border-style: none;
+  color: var(--border);
+  border-top-style: dotted;
+  border-width: .7rem;
+  width: 5%;
+  margin: 10rem auto;
+}
+
+/* middel content  */
+.intro {
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.intro h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  color: var(--heading-color);
+  font-weight: 700;
+}
+
+.intro p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  width: 35%;
+  text-align: center;
+  font-weight: 500;
+  color: var(--p-color);
+  line-height: 2;
+  margin: 0 auto;
+}
+
+.intro .pro {
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.my-skill {
+  width: 50%;
+  margin: 10rem auto 10rem;
+}
+
+.middel-container h1 {
+  font-size: 5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.middel-container span {
+  color: var(--heading-color);
+  font-weight: bold;
+}
+.my-skill h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--heading-color);
+  text-align: left;
+}
+
+.my-skill p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;;
+  text-align: left;
+  font-weight: 500;
+  color: var(--p-color);
+  line-height: 2;
+}
+.code {
+  max-width: 25%;
+  min-width: 25%
+  object-fit: cover;
+  height: auto;
+  float: left;
+  margin-right: 3rem;
+}
+.dev {
+  max-width: 25%;
+  min-width: 25%;
+  object-fit: cover;
+  height: auto;
+  float: right;
+  margin-left: 3rem;
+}
+/* Bottom content  */
+.bottom-container {
+  text-align: center;
+}
+
+.bottom-container h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 5rem;
+  color: var(--heading-color);
+  font-weight: 700;
+}
+
+.bottom-container h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  color: var(--heading-color);
+  font-weight: 500;
+}
+.bottom-container p {
+  font-size: 1.8rem;
+  margin: 3rem 0 8rem;
+  color: var(--p-color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.btn a {
+  font-size: 2.3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--main-heading);
+}
+.btn {
+  max-width: 35rem;
+  padding: .5rem 2rem;
+  border-radius: .8rem;
+  background: rgb(17,205,212);
+  background: linear-gradient(0deg, rgba(17,205,212,1) 0%, rgba(17,153,158,1) 100%);
+  border: none;
+  margin: 0 auto 12rem;
+}
+
+.btn:hover {
+  background: rgb(48,227,203);
+background: linear-gradient(0deg, rgba(48,227,203,1) 0%, rgba(48,227,203,1) 100%);
+}
+
+.footer {
+  background-color: var(--bg-2);
+}
+.footer p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4 rem;
+  padding: 5rem 0;
+  color: var(--hover);
+  font-weight: 500;
+  margin: 0;
+}
+.links {
+  padding: 5rem 0 0;
+}
+.links a {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: var(--heading-color);
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem 2rem 0;
+}
+
+.links a:hover {
+  color: var(--hover);
+}
